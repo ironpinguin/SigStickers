@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Pillow = "<10,>=9.0.0"
+anyio = "<4,>=2.0.2"
+emoji = "<2,>=0.6.0"
+signalstickers-client = "<5,>=3.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
